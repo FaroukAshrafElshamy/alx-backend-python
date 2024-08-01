@@ -3,6 +3,6 @@
 """Add two floats together."""
 
 
-def add(x: float, y: float):
+def add(x: float, y: float) -> float:
     """This function returns sum of floats"""
     return x + y
