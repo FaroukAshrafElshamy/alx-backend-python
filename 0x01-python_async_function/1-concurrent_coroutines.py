@@ -8,10 +8,9 @@ wait_random = __import__('0-basic_async_syntax').wait_random
 
 
 async def wait_n(n: int, max_delay: int) -> List[float]:
-    """ doc """
-    list = []
-
+    """ Async function """
+    output = []
     for _ in range(n):
-        list.append(await wait_random(max_delay))
+        output.append(await wait_random(max_delay))
 
-    return list
+    return output
